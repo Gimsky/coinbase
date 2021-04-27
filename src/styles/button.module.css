@@ -1,0 +1,23 @@
+.button {
+    width: 100%;
+    line-height: 52px;
+    display: block;
+    background: #0D55F6;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgba(13, 85, 246, .6);
+}
+.button:disabled {
+    background: rgba(13, 85, 246, .4);
+}
+

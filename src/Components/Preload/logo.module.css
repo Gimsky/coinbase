@@ -1,0 +1,30 @@
+.logo {
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.logo svg {
+    color: #0D55F6;
+    animation-name: logoSVG;
+    animation-duration: 1s;
+    animation-delay: 3.45s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes logoSVG {
+    0% {
+        color: #0D55F6;
+    }
+
+    100% {
+        color: #fff;
+    }
+}
